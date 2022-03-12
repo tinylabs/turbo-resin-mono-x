@@ -219,17 +219,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "stm32f407vet6-rust-examples"
-version = "0.1.0"
-dependencies = [
- "cortex-m 0.7.4",
- "cortex-m-rt",
- "cortex-m-semihosting",
- "panic-halt",
- "stm32f4",
-]
-
-[[package]]
 name = "syn"
 version = "1.0.86"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -238,6 +227,17 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-xid",
+]
+
+[[package]]
+name = "turbo-resin-mono-x"
+version = "0.1.0"
+dependencies = [
+ "cortex-m 0.7.4",
+ "cortex-m-rt",
+ "cortex-m-semihosting",
+ "panic-halt",
+ "stm32f4",
 ]
 
 [[package]]
